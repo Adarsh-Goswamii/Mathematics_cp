@@ -1,0 +1,9 @@
+Intuition: We need to find all the factors of number and
+as the no is 10,000 we can just find sum of factors for
+every number. And then check for pairs
+
+But that will be of complexity O(10^8).
+Well we can obviously do that without any problem.
+
+We can surely do some minor optimizations
+(i). from O(n^2) to O(n* sqrt(n))
