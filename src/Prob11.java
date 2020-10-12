@@ -34,32 +34,11 @@ class prob11
 {
     public static void main(String args[])throws IOException
     {
-        FileInputStream fis=new FileInputStream("input.txt");
-        BufferedReader br=new BufferedReader(new InputStreamReader(fis));
-
-        int[][] arr=new int[20][20];
-        for(int i=0;i<20;i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < 20; j++)
-                arr[i][j] = Integer.parseInt(st.nextToken());
-        }
-            for(int i=0;i<20;i++)
-            {
-                for(int j=3;j<20;j++)
-                {
-
-                }
-            }
-
-        }
-
-
     }
+}
 
 // Approach 1: There is nothing much to this question as far as i think
 //             We just have to traverse horizontally then vertically and then diagonally
 //             Using the sliding window approach with size of 4 calculating the product of elements
 //             in the window and storing the max out of it.
-
-// Tip: always try to avoid manual workings, try to figure out other things to
-//      to avoid corner cases;
+// Boring.
