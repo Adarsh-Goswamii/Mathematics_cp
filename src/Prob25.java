@@ -130,10 +130,10 @@ class Prob25
 
 /**
  * GAINED:
- * Apparently if we divide any two consecutive numbers the ratio which we
+ * Apparently if we divide any two consecutive fibonacci numbers the ratio which we
  * get is very close to the GOLDEN RATIO= 1.618034....
  *
- * So whats is actually this golden ratio?
+ * So what is actually this golden ratio?
  * Basically we get this golden ratio when we divide a line
  * Such that a/b = c/a
  *      more formally: bigger part/ smaller part = original line/ bigger part
