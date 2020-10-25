@@ -1,9 +1,12 @@
-Intuition: We need to find all the factors of number and
-as the no is 10,000 we can just find sum of factors for
-every number. And then check for pairs
+SOLUTION:
 
-But that will be of complexity O(10^8).
-Well we can obviously do that without any problem.
+The logic is quite simple
+for 2^4 and 4^2 we get same value.
+why cause 4= 2^(2)^(2)= 2^4
 
-We can surely do some minor optimizations
-(i). from O(n^2) to O(n* sqrt(n))
+So if the prime factorization of a number just contains one prime
+number then.
+       ex: 8= 2*2*2
+       100/3 are repeated values.
+       ex: 16= 2*2*2*2= 4*4
+       100/2 are repeated numbers.
